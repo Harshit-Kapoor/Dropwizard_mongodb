@@ -1,0 +1,12 @@
+server:
+  type: simple
+  applicationContextPath: /
+  adminContextPath: /admin
+  connector:
+    port: 4000
+    type: http
+
+mongoHost : localhost
+mongoPort : 27017
+mongoDB : mydatabase
+collectionName: Template
